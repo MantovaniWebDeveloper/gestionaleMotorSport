@@ -1,0 +1,12 @@
+.allMainContent {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: yellow;
+
+  & aside {
+    width: 20%;
+    height: 90%;
+    background-color: orange;
+  }
+}

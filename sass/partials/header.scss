@@ -1,0 +1,20 @@
+header {
+  background-color: $nero;
+  height: 70px;
+  width: 100%;
+
+  .wrapHeadNavigazione {
+    display: flex;
+    height: 70px;
+    & > div {
+      width: 50%;
+      height: 100%;
+    }
+    .wrapLogo {
+      line-height: 70px;
+    }
+    .wrapNav {
+    }
+  }
+
+}
