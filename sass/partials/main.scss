@@ -2,7 +2,6 @@
   display: flex;
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: yellow;
 
   & aside {
     width: 20%;
@@ -10,7 +9,7 @@
     background-color: $grigio;
 
     .wrapMenu {
-      height: 100%;
+      margin-bottom: 20px;
       .wrapMenuTitle {
         padding-top: 20px;
         padding-left: 10px;
@@ -37,9 +36,22 @@
            list-style-type: none;
            .elemento {
              color: $grigioScuro;
+             margin-top: 5px;
+             width: 100%;
+
              a {
                color: $grigioScuro;
                text-decoration: none;
+               &:hover {
+                 background-color: rgb(71, 171, 123);
+                 padding-top: 5px;
+                 padding-bottom: 5px;
+                 padding-right: 30px;
+                 padding-left: 30px;
+                 font-weight: bold;
+                 color: #fff;
+
+               }
              }
            }
          }

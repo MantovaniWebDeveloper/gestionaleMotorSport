@@ -34,7 +34,6 @@ header .wrapHeadNavigazione .wrapLogo {
   display: flex;
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: yellow;
 }
 
 .allMainContent aside {
@@ -44,7 +43,7 @@ header .wrapHeadNavigazione .wrapLogo {
 }
 
 .allMainContent aside .wrapMenu {
-  height: 100%;
+  margin-bottom: 20px;
 }
 
 .allMainContent aside .wrapMenu .wrapMenuTitle {
@@ -83,10 +82,22 @@ header .wrapHeadNavigazione .wrapLogo {
 
 .allMainContent aside .wrapMenu .wrapMenuNav .menu ul .elemento {
   color: #5a5a5a;
+  margin-top: 5px;
+  width: 100%;
 }
 
 .allMainContent aside .wrapMenu .wrapMenuNav .menu ul .elemento a {
   color: #5a5a5a;
   text-decoration: none;
+}
+
+.allMainContent aside .wrapMenu .wrapMenuNav .menu ul .elemento a:hover {
+  background-color: #47ab7b;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: #fff;
 }
 
