@@ -43,49 +43,49 @@ header .wrapHeadNavigazione .wrapLogo {
   background-color: #dbdbdb;
 }
 
-.allMainContent aside .wrapMenuPilota {
+.allMainContent aside .wrapMenu {
   height: 100%;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle {
+.allMainContent aside .wrapMenu .wrapMenuTitle {
   padding-top: 20px;
   padding-left: 10px;
   display: flex;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle div {
+.allMainContent aside .wrapMenu .wrapMenuTitle div {
   display: flex;
   align-items: center;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle div .titoliMenu {
+.allMainContent aside .wrapMenu .wrapMenuTitle div .titoliMenu {
   font-size: 20px;
   font-weight: bold;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle div .ico {
+.allMainContent aside .wrapMenu .wrapMenuTitle div .ico {
   height: 20px;
   margin-right: 5px;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuNav {
+.allMainContent aside .wrapMenu .wrapMenuNav {
   padding-top: 10px;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu {
+.allMainContent aside .wrapMenu .wrapMenuNav .menu {
   height: 100%;
   padding-left: 35px;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu ul {
+.allMainContent aside .wrapMenu .wrapMenuNav .menu ul {
   list-style-type: none;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu ul .elemento {
+.allMainContent aside .wrapMenu .wrapMenuNav .menu ul .elemento {
   color: #5a5a5a;
 }
 
-.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu ul .elemento a {
+.allMainContent aside .wrapMenu .wrapMenuNav .menu ul .elemento a {
   color: #5a5a5a;
   text-decoration: none;
 }
