@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -40,5 +41,52 @@ header .wrapHeadNavigazione .wrapLogo {
   width: 20%;
   height: 100%;
   background-color: #dbdbdb;
+}
+
+.allMainContent aside .wrapMenuPilota {
+  height: 100%;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle {
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle div {
+  display: flex;
+  align-items: center;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle div .titoliMenu {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuPilotaTitle div .ico {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuNav {
+  padding-top: 10px;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu {
+  height: 100%;
+  padding-left: 35px;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu ul {
+  list-style-type: none;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu ul .elemento {
+  color: #5a5a5a;
+}
+
+.allMainContent aside .wrapMenuPilota .wrapMenuNav .menu ul .elemento a {
+  color: #5a5a5a;
+  text-decoration: none;
 }
 

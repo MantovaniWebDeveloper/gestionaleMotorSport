@@ -9,5 +9,43 @@
     height: 100%;
     background-color: $grigio;
 
+    .wrapMenuPilota {
+      height: 100%;
+      .wrapMenuPilotaTitle {
+        padding-top: 20px;
+        padding-left: 10px;
+        display: flex;
+        div {
+          display: flex;
+          align-items: center;
+          .titoliMenu {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .ico {
+            height: 20px;
+            margin-right: 5px;
+          }
+        }
+      }
+     .wrapMenuNav {
+       padding-top:10px;
+       .menu {
+         height: 100%;
+         padding-left: 35px;
+         ul {
+           list-style-type: none;
+           .elemento {
+             color: $grigioScuro;
+             a {
+               color: $grigioScuro;
+               text-decoration: none;
+             }
+           }
+         }
+       }
+     }
+    }
+
   }
 }
