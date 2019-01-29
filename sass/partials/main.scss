@@ -10,54 +10,76 @@
 
     .wrapMenu {
       margin-bottom: 20px;
+
       .wrapMenuTitle {
         padding-top: 20px;
         padding-left: 10px;
         display: flex;
+
         div {
           display: flex;
           align-items: center;
+
           .titoliMenu {
             font-size: 20px;
             font-weight: bold;
           }
+
           .ico {
             height: 20px;
             margin-right: 5px;
           }
         }
       }
-     .wrapMenuNav {
-       padding-top:10px;
-       .menu {
-         height: 100%;
-         padding-left: 35px;
-         ul {
-           list-style-type: none;
-           .elemento {
-             color: $grigioScuro;
-             margin-top: 5px;
-             width: 100%;
 
-             a {
-               color: $grigioScuro;
-               text-decoration: none;
-               &:hover {
-                 background-color: rgb(71, 171, 123);
-                 padding-top: 5px;
-                 padding-bottom: 5px;
-                 padding-right: 30px;
-                 padding-left: 30px;
-                 font-weight: bold;
-                 color: #fff;
+      .wrapMenuNav {
+        padding-top: 10px;
 
-               }
-             }
-           }
-         }
-       }
-     }
+        .menu {
+          height: 100%;
+          padding-left: 35px;
+
+          ul {
+            list-style-type: none;
+
+            .elemento {
+              color: $grigioScuro;
+              margin-top: 5px;
+              width: 100%;
+
+              a {
+                color: $grigioScuro;
+                text-decoration: none;
+
+                &:hover {
+                  background-color: rgb(71, 171, 123);
+                  padding: 5px 30px;
+                  font-weight: bold;
+                  color: #fff;
+                }
+              }
+            }
+
+
+
+          }
+        }
+      }
     }
-
+  }
+  .mainContent {
+    width: 100%;
+    & .wrapStats {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 20px;
+      .statsRiquadro {
+        width: 45%;
+        height: 300px;
+        border: 1px solid $grigio;
+        background-color: #fff;
+        border-radius: 5px;
+      }
+    }
   }
 }

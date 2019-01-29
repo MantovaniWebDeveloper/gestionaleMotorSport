@@ -93,11 +93,26 @@ header .wrapHeadNavigazione .wrapLogo {
 
 .allMainContent aside .wrapMenu .wrapMenuNav .menu ul .elemento a:hover {
   background-color: #47ab7b;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding: 5px 30px;
   font-weight: bold;
   color: #fff;
+}
+
+.allMainContent .mainContent {
+  width: 100%;
+}
+
+.allMainContent .mainContent .wrapStats {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.allMainContent .mainContent .wrapStats .statsRiquadro {
+  width: 45%;
+  height: 300px;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
